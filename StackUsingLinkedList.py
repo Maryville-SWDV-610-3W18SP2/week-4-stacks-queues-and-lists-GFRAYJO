@@ -21,7 +21,7 @@ class linkedList:
             return
         popData = self.head.data
         self.head = self.head.next
-        print('The popped valued is: ' + str(popData))
+        print((popData))
         
 if __name__ == '__main__':
     
@@ -37,4 +37,4 @@ if __name__ == '__main__':
     stack.pop()
     stack.pop()
     stack.pop()
-    
+  
