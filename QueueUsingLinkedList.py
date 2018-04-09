@@ -38,7 +38,7 @@ class Queue:
             print('Queue is empty')
             
     def __len__(self):
-        return self.size
+        return self.size == 0
     
     def is_empty(self):
         if self.head == None:
